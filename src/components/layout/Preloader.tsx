@@ -9,7 +9,7 @@ export default function Preloader() {
 
   useEffect(() => {
     // Check if user already saw the intro in this session
-    const hasSeenIntro = sessionStorage.getItem('caspire_intro_seen');
+    const hasSeenIntro = sessionStorage.getItem('cristina_intro_seen');
     if (hasSeenIntro) {
       setLoading(false);
       return;
@@ -21,7 +21,7 @@ export default function Preloader() {
           clearInterval(interval);
           setTimeout(() => {
             setLoading(false);
-            sessionStorage.setItem('caspire_intro_seen', 'true');
+            sessionStorage.setItem('cristina_intro_seen', 'true');
           }, 350);
           return 100;
         }
@@ -62,9 +62,9 @@ export default function Preloader() {
               initial={{ letterSpacing: '0.4em', opacity: 0 }}
               animate={{ letterSpacing: '0.2em', opacity: 1 }}
               transition={{ duration: 0.9, ease: 'easeOut' }}
-              className="text-4xl md:text-6xl font-light tracking-[0.2em] font-serif uppercase text-white"
+              className="text-3xl md:text-5xl font-light tracking-[0.2em] font-serif uppercase text-white"
             >
-              CASPIRE
+              CRISTINA CASADO
             </motion.h1>
 
             <motion.p
@@ -73,7 +73,7 @@ export default function Preloader() {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-xs tracking-[0.3em] uppercase text-zinc-400 mt-2"
             >
-              Chronicles of Dusk
+              Reliquia • Oxymoron
             </motion.p>
 
             {/* Elegant minimal progress bar */}

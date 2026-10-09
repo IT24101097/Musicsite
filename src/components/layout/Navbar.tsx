@@ -58,8 +58,8 @@ export default function Navbar() {
             href="/"
             className="group flex flex-col items-start focus:outline-none"
           >
-            <span className="font-serif text-2xl md:text-3xl font-light tracking-[0.22em] uppercase text-white group-hover:text-[#DFC28D] transition-colors duration-300">
-              CASPIRE
+            <span className="font-serif text-xl sm:text-2xl md:text-3xl font-light tracking-[0.2em] uppercase text-white group-hover:text-[#DFC28D] transition-colors duration-300">
+              CRISTINA CASADO
             </span>
             <span className="text-[9px] uppercase tracking-[0.35em] text-[#C9A86C] font-sans -mt-1 opacity-80 group-hover:opacity-100 transition-opacity">
               Official Site

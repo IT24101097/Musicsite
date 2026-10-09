@@ -31,13 +31,13 @@ export default function MusicPage() {
       <PageHeader
         badge="Official Discography"
         title="THE MUSIC"
-        subtitle="Explore the complete catalogue of studio albums, orchestral arrangements, and acoustic sessions by Caspire."
+        subtitle="Explore the complete catalogue of singles, EPs, and acoustic sessions by Cristina Casado."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">
         {/* Filter Pills */}
         <div className="flex flex-wrap items-center justify-center gap-3 mb-16">
-          {(['ALL', 'ALBUM', 'EP'] as const).map((item) => (
+          {(['ALL', 'EP', 'ALBUM', 'SINGLE'] as const).map((item) => (
             <button
               key={item}
               onClick={() => setFilter(item as 'ALL' | MediaType)}

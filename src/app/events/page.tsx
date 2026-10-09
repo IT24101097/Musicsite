@@ -19,39 +19,37 @@ import { TourEvent } from '@/types/artist';
 const pastEventsData: TourEvent[] = [
   {
     id: 'past-1',
-    title: 'THE ROYAL ALBERT HALL RESIDENCY',
-    tourName: 'Velvet Horizon European Tour',
-    date: '2025-07-14T19:30:00Z',
-    displayDate: '14 JUL 2025',
+    title: 'WOMEN WHO DARE FESTIVAL 2025',
+    tourName: 'Dare Management Showcase',
+    date: '2025-03-21T19:30:00Z',
+    displayDate: '21 MAR 2025',
     time: '7:30 PM',
-    venue: 'Royal Albert Hall',
-    city: 'London',
-    country: 'United Kingdom',
+    venue: 'Miami Beach Bandshell',
+    city: 'Miami',
+    country: 'United States',
     status: 'PAST',
     eventPhoto:
       'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1000&q=85',
     description:
-      'Historic 3-night sold-out stand with the Royal Philharmonic Orchestra.',
-    mapsUrl: 'https://maps.google.com/?q=Royal+Albert+Hall+London',
-    isDemoContent: true,
+      'Headlining live performance at the Women Who Dare festival in Miami Beach.',
+    mapsUrl: 'https://maps.google.com/?q=Miami+Beach+Bandshell',
   },
   {
     id: 'past-2',
-    title: 'THE OLYMPIASTADION SPECIAL',
-    tourName: 'Velvet Horizon European Tour',
-    date: '2025-06-20T20:00:00Z',
-    displayDate: '20 JUN 2025',
+    title: 'SANTO DOMINGO ACOUSTIC SESSIONS',
+    tourName: 'Acoustic Sessions Live',
+    date: '2024-12-14T20:00:00Z',
+    displayDate: '14 DEC 2024',
     time: '8:00 PM',
-    venue: 'Waldbühne Berlin',
-    city: 'Berlin',
-    country: 'Germany',
+    venue: 'Casa de Teatro',
+    city: 'Santo Domingo',
+    country: 'Dominican Republic',
     status: 'PAST',
     eventPhoto:
       'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1000&q=85',
     description:
-      'Summer open-air amphitheater concert under the stars in Berlin forest.',
-    mapsUrl: 'https://maps.google.com/?q=Waldbuhne+Berlin',
-    isDemoContent: true,
+      'Intimate acoustic evening performing songs from "Without You" and previewing "Reliquia".',
+    mapsUrl: 'https://maps.google.com/?q=Casa+de+Teatro+Santo+Domingo',
   },
 ];
 
@@ -65,9 +63,9 @@ export default function EventsPage() {
   return (
     <div className="min-h-screen bg-[#080808] pb-28">
       <PageHeader
-        badge="World Tour 2026 - 2027"
-        title="CONCERTS & EVENTS"
-        subtitle="Experience Caspire live in concert. Featuring orchestral arrangements, custom spatial acoustics, and visual storytelling."
+        badge="Live Performances & Tour"
+        title="CONCERTS & SHOWS"
+        subtitle="Experience Cristina Casado live in concert. Featuring acoustic intimacies, live band arrangements, and heartfelt bilingual vocal performances."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">

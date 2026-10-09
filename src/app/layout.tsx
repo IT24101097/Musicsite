@@ -25,27 +25,29 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: `${artistProfile.name} | Official Website • Chronicles of Dusk`,
-  description: `${artistProfile.name} - ${artistProfile.tagline}. Official music, music videos, upcoming world tour concerts, and biography.`,
+  title: `${artistProfile.name} | Official Website • Reliquia & Oxymoron`,
+  description: `${artistProfile.name} - ${artistProfile.tagline}. Official music, videos, upcoming concerts, and biography.`,
   keywords: [
-    'Caspire',
-    'Caspire Music',
-    'Chronicles of Dusk',
-    'Official Musician Website',
-    'Cinematic Art Pop',
-    'Live Tour Concerts',
+    'Cristina Casado',
+    'Cristina Casado Music',
+    'Reliquia',
+    'Oxymoron',
+    'Lilac',
+    'Without You',
+    'Dominican Pop Artist',
+    'Dare Management',
   ],
-  authors: [{ name: 'Caspire Music Group' }],
+  authors: [{ name: 'Cristina Casado Music' }],
   openGraph: {
     title: `${artistProfile.name} | The Official Website`,
     description: `${artistProfile.name} - ${artistProfile.tagline}. Stream latest releases and discover tour dates.`,
-    url: 'https://caspiremusic.com',
-    siteName: 'Caspire Official',
+    url: 'https://cristinacasadomusic.com',
+    siteName: 'Cristina Casado Official',
     images: [
       {
         url: artistProfile.heroImage,
-        width: 1200,
-        height: 630,
+        width: 640,
+        height: 640,
         alt: `${artistProfile.name} Official Portrait`,
       },
     ],

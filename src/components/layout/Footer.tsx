@@ -37,8 +37,8 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="md:col-span-5 flex flex-col space-y-4">
             <Link href="/" className="inline-block">
-              <span className="font-serif text-3xl md:text-4xl font-light tracking-[0.25em] uppercase text-white hover:text-[#DFC28D] transition-colors">
-                CASPIRE
+              <span className="font-serif text-2xl md:text-3xl font-light tracking-[0.22em] uppercase text-white hover:text-[#DFC28D] transition-colors">
+                CRISTINA CASADO
               </span>
             </Link>
             <p className="text-zinc-400 text-xs md:text-sm max-w-sm leading-relaxed font-light">
@@ -131,7 +131,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-[11px] text-zinc-500 font-mono gap-4">
-          <p>© {new Date().getFullYear()} CASPIRE MUSIC GROUP. ALL RIGHTS RESERVED.</p>
+          <p>© {new Date().getFullYear()} CRISTINA CASADO MUSIC. ALL RIGHTS RESERVED.</p>
 
           <div className="flex items-center space-x-6">
             <span className="hover:text-zinc-300 cursor-pointer">PRIVACY POLICY</span>

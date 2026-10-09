@@ -55,7 +55,7 @@ export default function UpcomingEventsSection() {
               <span>Live Performances</span>
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-6xl font-light tracking-[0.08em] uppercase text-white">
-              THE CELESTIAL WORLD TOUR
+              UPCOMING SHOWS & DATES
             </h2>
           </div>
 

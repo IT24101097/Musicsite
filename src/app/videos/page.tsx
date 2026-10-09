@@ -33,7 +33,7 @@ export default function VideosPage() {
       <PageHeader
         badge="Official Visuals"
         title="MUSIC VIDEOS"
-        subtitle="Explore cinematic music films, full live symphony performances, and rare behind-the-scenes documentaries."
+        subtitle="Explore official music videos, live acoustic performances, and behind-the-scenes studio sessions by Cristina Casado."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">

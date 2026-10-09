@@ -47,7 +47,7 @@ export default function NewsletterSection() {
         </h2>
 
         <p className="text-zinc-400 text-sm md:text-base max-w-xl mx-auto font-light leading-relaxed mb-10">
-          Get updates about new music, upcoming shows, and exclusive announcements directly from Caspire’s inner circle.
+          Get updates about new music, upcoming shows, and exclusive announcements directly from Cristina Casado’s inner circle.
         </p>
 
         <AnimatePresence mode="wait">

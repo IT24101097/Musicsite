@@ -110,7 +110,7 @@ export interface TourEvent {
   description: string;
   mapsUrl: string;
   infoUrl?: string;
-  isDemoContent: boolean;
+  isDemoContent?: boolean;
 }
 
 export type GalleryCategory =

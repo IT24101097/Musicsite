@@ -50,16 +50,16 @@ export default function HeroSection() {
         >
           <span className="w-1.5 h-1.5 rounded-full bg-[#C9A86C] animate-pulse" />
           <span className="text-[11px] uppercase tracking-[0.35em] text-[#DFC28D] font-mono">
-            New Studio Album & World Tour 2026
+            New Single &ldquo;Oxymoron&rdquo; &bull; Stream on Spotify
           </span>
         </motion.div>
 
         {/* Massive Editorial Artist Name */}
         <motion.h1
-          initial={{ opacity: 0, y: 30, letterSpacing: '0.28em' }}
-          animate={{ opacity: 1, y: 0, letterSpacing: '0.18em' }}
+          initial={{ opacity: 0, y: 30, letterSpacing: '0.22em' }}
+          animate={{ opacity: 1, y: 0, letterSpacing: '0.12em' }}
           transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="font-serif text-6xl sm:text-7xl md:text-9xl lg:text-[10.5rem] font-light uppercase tracking-[0.18em] text-white select-none drop-shadow-2xl leading-none"
+          className="font-serif text-5xl sm:text-6xl md:text-8xl lg:text-[7.5rem] font-light uppercase tracking-[0.12em] text-white select-none drop-shadow-2xl leading-none"
         >
           {artistProfile.name}
         </motion.h1>

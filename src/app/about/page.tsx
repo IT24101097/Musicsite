@@ -22,9 +22,9 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#080808] pb-28">
       <PageHeader
-        badge="Biography & Odyssey"
-        title="ABOUT CASPIRE"
-        subtitle="A journey through sonic worldbuilding, classical conservatory disciplines, and the evolution of modern cinematic pop."
+        badge="Biography & Artistry"
+        title="ABOUT CRISTINA CASADO"
+        subtitle="A journey of authentic storytelling, multi-instrumental artistry, and the vibrant fusion of Anglo-Saxon and Latin pop."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12 space-y-28">
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[3/4] w-full rounded-3xl overflow-hidden shadow-2xl border border-white/10">
               <Image
-                src={artistProfile.studioPortrait}
+                src={artistProfile.profilePortrait}
                 alt={artistProfile.name}
                 fill
                 className="object-cover"
@@ -55,10 +55,10 @@ export default function AboutPage() {
 
           <div className="lg:col-span-7 flex flex-col space-y-6">
             <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono">
-              The Genesis & Philosophy
+              The Genesis & Artistry
             </span>
             <h2 className="font-serif text-3xl sm:text-5xl font-light text-white uppercase tracking-wide">
-              SOUND AS AN ARCHITECTURE OF EMOTION
+              MUSIC AS AN ARCHITECTURE OF EMOTION
             </h2>
 
             <div className="space-y-4 text-zinc-300 text-sm sm:text-base font-light leading-relaxed">
@@ -74,15 +74,15 @@ export default function AboutPage() {
                   GENRES
                 </span>
                 <span className="text-xs text-white font-medium block mt-1">
-                  Cinematic Pop
+                  Pop & Latin Pop
                 </span>
               </div>
               <div>
                 <span className="text-[10px] font-mono uppercase text-zinc-400">
-                  STUDIO BASES
+                  BASES
                 </span>
                 <span className="text-xs text-white font-medium block mt-1">
-                  London & LA
+                  Santo Domingo & Miami
                 </span>
               </div>
               <div>
@@ -90,15 +90,15 @@ export default function AboutPage() {
                   INSTRUMENTS
                 </span>
                 <span className="text-xs text-white font-medium block mt-1">
-                  Piano, Synthesizers
+                  Piano, Guitar, Vocals
                 </span>
               </div>
               <div>
                 <span className="text-[10px] font-mono uppercase text-zinc-400">
-                  ORCHESTRAL
+                  MANAGEMENT
                 </span>
                 <span className="text-xs text-white font-medium block mt-1">
-                  Live String Ensemble
+                  Dare Management
                 </span>
               </div>
             </div>

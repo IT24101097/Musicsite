@@ -15,48 +15,48 @@ import { artistProfile } from '@/data/artistData';
 const socialChannels = [
   {
     name: 'Spotify',
-    handle: '@caspire',
-    followers: '4.8M Monthly Listeners',
+    handle: 'Cristina Casado',
+    followers: '1.2K+ Monthly Listeners',
     url: artistProfile.socialLinks.spotify,
     icon: SpotifyIcon,
     color: 'hover:border-[#1db954] hover:text-[#1db954]',
   },
   {
     name: 'Apple Music',
-    handle: 'Caspire Official',
-    followers: 'Spatial Audio Releases',
+    handle: 'Cristina Casado',
+    followers: 'Bilingual Pop Releases',
     url: artistProfile.socialLinks.appleMusic,
     icon: AppleMusicIcon,
     color: 'hover:border-[#fc3c44] hover:text-[#fc3c44]',
   },
   {
     name: 'YouTube',
-    handle: '@caspiremusic',
-    followers: '2.1M Subscribers',
+    handle: '@cristinacasadomusic',
+    followers: 'Official Music Videos',
     url: artistProfile.socialLinks.youtube,
     icon: YoutubeIcon,
     color: 'hover:border-[#ff0000] hover:text-[#ff0000]',
   },
   {
     name: 'Instagram',
-    handle: '@caspire',
-    followers: '3.4M Followers',
+    handle: '@cristinacasadomusic',
+    followers: 'Official Artist Profile',
     url: artistProfile.socialLinks.instagram,
     icon: InstagramIcon,
     color: 'hover:border-[#e1306c] hover:text-[#e1306c]',
   },
   {
     name: 'TikTok',
-    handle: '@caspiremusic',
-    followers: '1.9M Followers',
+    handle: '@cristinacasadomusic',
+    followers: 'Acoustic & Studio Sessions',
     url: artistProfile.socialLinks.tiktok,
     icon: TikTokIcon,
     color: 'hover:border-[#00f2fe] hover:text-[#00f2fe]',
   },
   {
     name: 'Facebook',
-    handle: 'Caspire Official',
-    followers: '850K Followers',
+    handle: 'Cristina Casado Music',
+    followers: 'Live Shows & Community',
     url: artistProfile.socialLinks.facebook || 'https://facebook.com',
     icon: FacebookIcon,
     color: 'hover:border-[#1877f2] hover:text-[#1877f2]',
@@ -76,7 +76,7 @@ export default function SocialMediaSection() {
             STAY CONNECTED
           </h2>
           <p className="text-xs md:text-sm text-zinc-400 max-w-lg mt-3 font-light">
-            Follow Caspire across all verified official channels for live updates, behind the scenes moments, and studio previews.
+            Follow Cristina Casado across all verified official channels for live updates, behind the scenes moments, and studio previews.
           </p>
           <div className="w-16 h-0.5 bg-[#C9A86C]/50 mt-4" />
         </div>

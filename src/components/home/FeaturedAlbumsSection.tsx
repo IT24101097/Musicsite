@@ -21,7 +21,7 @@ export default function FeaturedAlbumsSection() {
               Discography
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-6xl font-light tracking-[0.08em] uppercase text-white">
-              FEATURED ALBUMS
+              FEATURED RELEASES
             </h2>
           </div>
 

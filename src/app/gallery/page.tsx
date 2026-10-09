@@ -71,7 +71,7 @@ export default function GalleryPage() {
       <PageHeader
         badge="Photography Archives"
         title="PHOTO GALLERY"
-        subtitle="Behind the velvet curtain. Live stadium visuals, analog studio sessions, and international editorial portraiture."
+        subtitle="Live performance visuals, studio recording sessions, and official editorial portraiture of Cristina Casado."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">

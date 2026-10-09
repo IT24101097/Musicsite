@@ -87,7 +87,7 @@ export default function ContactPage() {
                 MANAGEMENT DIRECTORY
               </h3>
               <p className="text-zinc-400 text-xs sm:text-sm mt-2 leading-relaxed font-light">
-                All booking inquiries are reviewed directly by Caspire’s management team in Los Angeles and London.
+                All booking inquiries are reviewed directly by Dare Management and Cristina Casado’s representation team in Miami and Santo Domingo.
               </p>
             </div>
 

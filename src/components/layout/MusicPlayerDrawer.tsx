@@ -143,7 +143,7 @@ export default function MusicPlayerDrawer() {
                     {currentTrack.title}
                   </h3>
                   <p className="text-xs text-zinc-400 mb-4">
-                    Composed & Performed by Caspire • Mastered for Spatial Audio
+                    Composed & Performed by Cristina Casado • Official Release
                   </p>
 
                   {/* Streaming links badge row */}
@@ -234,7 +234,7 @@ export default function MusicPlayerDrawer() {
                     if (navigator.share) {
                       navigator.share({
                         title: currentTrack.title,
-                        text: `Listen to "${currentTrack.title}" by Caspire`,
+                        text: `Listen to "${currentTrack.title}" by Cristina Casado`,
                         url: window.location.href,
                       });
                     }

@@ -2,20 +2,27 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'motion/react';
 import {
   Trophy,
-  Award,
   Sparkles,
   Milestone,
-  CheckCircle,
   Quote,
+  Music2,
+  BookOpen,
+  ArrowRight,
+  ExternalLink,
 } from 'lucide-react';
 import PageHeader from '@/components/layout/PageHeader';
 import {
   artistProfile,
   careerMilestones,
   awardsData,
+  pressCritiquesData,
+  notableCollaborators,
+  originalSongsCatalog,
+  blogPostsData,
 } from '@/data/artistData';
 
 export default function AboutPage() {
@@ -24,7 +31,7 @@ export default function AboutPage() {
       <PageHeader
         badge="Biography & Artistry"
         title="ABOUT CRISTINA CASADO"
-        subtitle="A journey of authentic storytelling, multi-instrumental artistry, and the vibrant fusion of Anglo-Saxon and Latin pop."
+        subtitle="A journey of authentic storytelling, multi-instrumental artistry, and the vibrant fusion of Anglo-Saxon and young Dominican pop."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12 space-y-28">
@@ -41,24 +48,28 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20" />
             </div>
 
-            {/* Quote badge */}
+            {/* Professional Statement Quote card */}
             <div className="mt-6 p-6 rounded-2xl bg-[#141414] border border-white/10">
-              <Quote className="w-5 h-5 text-[#C9A86C] mb-2" />
+              <div className="flex items-center space-x-2 text-[10px] uppercase tracking-[0.25em] text-[#C9A86C] font-mono mb-2">
+                <Quote className="w-4 h-4 text-[#C9A86C]" />
+                <span>Professional Statement</span>
+              </div>
               <p className="font-serif italic text-sm text-zinc-300 leading-relaxed">
                 &ldquo;{artistProfile.quote}&rdquo;
               </p>
-              <span className="text-[10px] uppercase tracking-widest text-[#C9A86C] font-mono mt-2 block">
+              <span className="text-[10px] uppercase tracking-widest text-[#C9A86C] font-mono mt-3 block">
                 — {artistProfile.quoteAuthor}
               </span>
             </div>
           </div>
 
           <div className="lg:col-span-7 flex flex-col space-y-6">
-            <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono">
-              The Genesis & Artistry
+            <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono flex items-center space-x-2">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Behind the Music</span>
             </span>
             <h2 className="font-serif text-3xl sm:text-5xl font-light text-white uppercase tracking-wide">
-              MUSIC AS AN ARCHITECTURE OF EMOTION
+              DISCOVERING THE SOUND THAT RESONATES
             </h2>
 
             <div className="space-y-4 text-zinc-300 text-sm sm:text-base font-light leading-relaxed">
@@ -82,7 +93,7 @@ export default function AboutPage() {
                   BASES
                 </span>
                 <span className="text-xs text-white font-medium block mt-1">
-                  Santo Domingo & Miami
+                  Punta Cana & Miami
                 </span>
               </div>
               <div>
@@ -102,6 +113,50 @@ export default function AboutPage() {
                 </span>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Section 3: Comments & Critiques (Official Press Reviews) */}
+        <section className="relative py-8">
+          <div className="text-center mb-14">
+            <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono mb-2 block">
+              Respected Insights
+            </span>
+            <h3 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light uppercase text-white tracking-wide">
+              COMMENTS & CRITIQUES
+            </h3>
+            <p className="text-zinc-400 text-xs sm:text-sm max-w-xl mx-auto mt-3 font-light leading-relaxed">
+              The buzz created by critics and shared by fans shapes her continued development as a music artist.
+            </p>
+            <div className="w-16 h-0.5 bg-[#C9A86C]/50 mx-auto mt-4" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {pressCritiquesData.map((critique) => (
+              <motion.div
+                key={critique.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="p-8 rounded-3xl bg-[#121212]/80 border border-white/10 hover:border-[#C9A86C]/40 transition-all flex flex-col justify-between space-y-6"
+              >
+                <div>
+                  <span className="text-[10px] uppercase tracking-[0.25em] text-[#C9A86C] font-mono block mb-3">
+                    {critique.section}
+                  </span>
+                  <Quote className="w-6 h-6 text-[#C9A86C]/60 mb-3" />
+                  <p className="font-serif italic text-base sm:text-lg text-zinc-200 leading-relaxed">
+                    &ldquo;{critique.quote}&rdquo;
+                  </p>
+                </div>
+                <div className="pt-4 border-t border-white/10">
+                  <span className="text-xs text-white font-medium tracking-wide block">
+                    — {critique.author}
+                  </span>
+                </div>
+              </motion.div>
+            ))}
           </div>
         </section>
 
@@ -142,7 +197,9 @@ export default function AboutPage() {
                     <div className="ml-10 md:ml-0 md:w-1/2 p-6 rounded-2xl bg-[#121212] border border-white/10 hover:border-[#C9A86C]/40 transition-colors">
                       <div className="flex items-center space-x-2 text-[10px] uppercase tracking-[0.25em] text-[#C9A86C] font-mono mb-1">
                         <Milestone className="w-3.5 h-3.5" />
-                        <span>{item.year} &bull; {item.tag}</span>
+                        <span>
+                          {item.year} &bull; {item.tag}
+                        </span>
                       </div>
                       <h4 className="font-serif text-xl font-light text-white">
                         {item.title}
@@ -161,43 +218,30 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Section 5: Awards and Achievements */}
+        {/* Section 5: Original Songs & Repertoire */}
         <section className="p-8 md:p-12 rounded-3xl bg-[#121212]/70 border border-white/10 backdrop-blur-xl">
-          <div className="text-center mb-12">
+          <div className="text-center mb-10">
             <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono mb-2 block">
-              Recognition
+              Songwriting Repertoire
             </span>
             <h3 className="font-serif text-3xl sm:text-4xl font-light uppercase text-white tracking-wide">
-              AWARDS & HONORS
+              ORIGINAL SONGS CATALOG
             </h3>
+            <p className="text-zinc-400 text-xs sm:text-sm max-w-xl mx-auto mt-2 font-light">
+              From pop ballad confessions to alternative acoustic anthems, here are some of Cristina’s written and performed original tracks.
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {awardsData.map((award, idx) => (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+            {originalSongsCatalog.map((song, idx) => (
               <div
                 key={idx}
-                className="p-6 rounded-2xl bg-black/40 border border-white/10 flex flex-col justify-between space-y-4"
+                className="p-4 rounded-2xl bg-black/40 border border-white/10 hover:border-[#C9A86C]/50 transition-all flex flex-col items-center justify-center text-center space-y-2 group"
               >
-                <div className="flex items-start justify-between">
-                  <div className="w-10 h-10 rounded-full bg-[#C9A86C]/10 border border-[#C9A86C]/30 flex items-center justify-center text-[#C9A86C]">
-                    <Trophy className="w-5 h-5" />
-                  </div>
-                  <span className="px-2.5 py-1 rounded-full text-[9px] font-mono tracking-widest bg-emerald-950/40 text-emerald-300 border border-emerald-500/30 uppercase">
-                    {award.result}
-                  </span>
-                </div>
-
-                <div>
-                  <span className="text-[10px] uppercase tracking-widest text-[#C9A86C] font-mono">
-                    {award.year} &bull; {award.organization}
-                  </span>
-                  <h4 className="font-serif text-lg font-light text-white mt-1">
-                    {award.category}
-                  </h4>
-                  <p className="text-xs text-zinc-400 font-mono mt-0.5">
-                    For &ldquo;{award.work}&rdquo;
-                  </p>
-                </div>
+                <Music2 className="w-4 h-4 text-[#C9A86C] group-hover:scale-110 transition-transform" />
+                <span className="text-xs text-white font-medium group-hover:text-[#DFC28D] transition-colors line-clamp-2">
+                  {song}
+                </span>
               </div>
             ))}
           </div>
@@ -206,41 +250,69 @@ export default function AboutPage() {
         {/* Section 6: Notable Collaborations */}
         <section className="text-center">
           <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono mb-2 block">
-            Creative Alliances
+            Creative Alliances & Team
           </span>
           <h3 className="font-serif text-3xl sm:text-4xl font-light uppercase text-white tracking-wide mb-8">
-            NOTABLE COLLABORATORS
+            COLLABORATORS & MANAGEMENT
           </h3>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-4xl mx-auto">
-            {[
-              {
-                name: 'Royal Philharmonic Orchestra',
-                role: 'Symphonic Scoring & Live Residency',
-              },
-              {
-                name: 'Julian Thorne',
-                role: 'Featured Vocalist & Duet Partner',
-              },
-              {
-                name: 'Claire De La Tour',
-                role: 'Visual Cinematography Director',
-              },
-              {
-                name: 'Abbey Road Studio Two',
-                role: 'Analogue Tape & Acoustic Mastering',
-              },
-            ].map((collab, i) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {notableCollaborators.map((collab, i) => (
               <div
                 key={i}
-                className="p-6 rounded-2xl bg-[#141414] border border-white/10"
+                className="p-6 rounded-2xl bg-[#141414] border border-white/10 hover:border-[#C9A86C]/30 transition-colors text-left"
               >
-                <h5 className="font-medium text-white text-sm">
+                <h5 className="font-medium text-white text-base">
                   {collab.name}
                 </h5>
-                <p className="text-xs text-zinc-400 mt-1 font-light">
+                <p className="text-xs text-[#DFC28D] mt-1 font-mono">
                   {collab.role}
                 </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Section 7: Stories & Newsletter Updates */}
+        <section className="relative py-8">
+          <div className="text-center mb-12">
+            <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono mb-2 block">
+              From the Artist Blog
+            </span>
+            <h3 className="font-serif text-3xl sm:text-4xl font-light uppercase text-white tracking-wide">
+              LATEST STORIES & UPDATES
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {blogPostsData.map((post) => (
+              <div
+                key={post.id}
+                className="p-8 rounded-3xl bg-[#121212]/80 border border-white/10 hover:border-[#C9A86C]/40 transition-all flex flex-col justify-between space-y-6"
+              >
+                <div>
+                  <span className="text-[10px] uppercase tracking-[0.2em] text-[#C9A86C] font-mono block mb-2">
+                    {post.date} &bull; {post.readTime}
+                  </span>
+                  <h4 className="font-serif text-xl font-light text-white mb-3">
+                    {post.title}
+                  </h4>
+                  <p className="text-xs text-zinc-400 font-light leading-relaxed">
+                    {post.excerpt}
+                  </p>
+                </div>
+
+                {post.externalUrl && (
+                  <a
+                    href={post.externalUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center space-x-2 text-xs uppercase tracking-wider text-[#C9A86C] hover:text-[#DFC28D] font-mono transition-colors"
+                  >
+                    <span>Read on Official Site</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                )}
               </div>
             ))}
           </div>

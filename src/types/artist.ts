@@ -156,3 +156,23 @@ export interface PlayingTrackState {
   };
   isPlaying: boolean;
 }
+
+export interface PressCritique {
+  id: string;
+  publication: string;
+  section: string;
+  quote: string;
+  author: string;
+}
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  content: string;
+  slug: string;
+  readTime: string;
+  externalUrl?: string;
+}
+

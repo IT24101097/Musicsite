@@ -57,10 +57,10 @@ export default function ArtistBioSection() {
             <div>
               <span className="text-[11px] uppercase tracking-[0.35em] text-[#C9A86C] font-mono mb-2 flex items-center space-x-2">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>The Persona & Vision</span>
+                <span>Behind the Music</span>
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-[0.06em] uppercase text-white mt-2">
-                THE STORY BEHIND THE MUSIC
+                BEHIND THE MUSIC
               </h2>
             </div>
 
@@ -74,7 +74,7 @@ export default function ArtistBioSection() {
                   GENRES
                 </span>
                 <span className="text-xs text-white font-medium mt-1 block">
-                  Cinematic Art-Pop
+                  {artistProfile.genres.slice(0, 2).join(' & ')}
                 </span>
               </div>
               <div>
@@ -87,10 +87,10 @@ export default function ArtistBioSection() {
               </div>
               <div>
                 <span className="text-[10px] uppercase tracking-widest text-zinc-400 font-mono block">
-                  CATALOGUE
+                  JOURNEY
                 </span>
                 <span className="text-xs text-white font-medium mt-1 block">
-                  3 LPs &bull; 1.2B Streams
+                  Active Since 2020 &bull; Debut EP
                 </span>
               </div>
             </div>

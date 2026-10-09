@@ -31,9 +31,9 @@ export default function VideosPage() {
   return (
     <div className="min-h-screen bg-[#080808] pb-28">
       <PageHeader
-        badge="Official Visuals"
-        title="MUSIC VIDEOS"
-        subtitle="Explore official music videos, live acoustic performances, and behind-the-scenes studio sessions by Cristina Casado."
+        badge="Official Visuals & Performances"
+        title="MUSIC VIDEOS & PERFORMANCES"
+        subtitle="Discover a captivating collection of videos featuring Cristina Casado showcasing her talent at events and performances, from heartfelt originals to acoustic covers and studio sessions."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">

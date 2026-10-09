@@ -72,7 +72,7 @@ export default function ContactPage() {
       <PageHeader
         badge="Artist Representation & Inquiries"
         title="LET'S CREATE SOMETHING TOGETHER"
-        subtitle="For concert bookings, symphony commissions, press representation, and corporate engagements, please contact artist management below."
+        subtitle="For concert bookings, live showcases, press representation, collaborations, and inquiries, please reach out to artist management below."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">
@@ -87,7 +87,7 @@ export default function ContactPage() {
                 MANAGEMENT DIRECTORY
               </h3>
               <p className="text-zinc-400 text-xs sm:text-sm mt-2 leading-relaxed font-light">
-                All booking inquiries are reviewed directly by Dare Management and Cristina Casado’s representation team in Miami and Santo Domingo.
+                All booking and press inquiries are reviewed directly by Dare (Digital Arts Rep) Management and Cristina Casado’s team in Miami and the Dominican Republic.
               </p>
             </div>
 
@@ -98,7 +98,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <span className="text-[10px] uppercase tracking-widest text-zinc-400 font-mono block">
-                    GENERAL MANAGEMENT
+                    GENERAL MANAGEMENT & BOOKING
                   </span>
                   <a
                     href={`mailto:${artistProfile.management.generalEmail}`}
@@ -111,31 +111,14 @@ export default function ContactPage() {
 
               <div className="p-6 rounded-2xl bg-[#121212] border border-white/10 flex items-start space-x-4">
                 <div className="w-10 h-10 rounded-full bg-[#C9A86C]/10 border border-[#C9A86C]/30 flex items-center justify-center text-[#C9A86C] shrink-0 mt-0.5">
-                  <Mail className="w-4 h-4" />
+                  <Sparkles className="w-4 h-4" />
                 </div>
                 <div>
                   <span className="text-[10px] uppercase tracking-widest text-zinc-400 font-mono block">
-                    TOUR & FESTIVAL BOOKING
-                  </span>
-                  <a
-                    href={`mailto:${artistProfile.management.bookingEmail}`}
-                    className="text-white hover:text-[#C9A86C] text-sm font-medium transition-colors"
-                  >
-                    {artistProfile.management.bookingEmail}
-                  </a>
-                </div>
-              </div>
-
-              <div className="p-6 rounded-2xl bg-[#121212] border border-white/10 flex items-start space-x-4">
-                <div className="w-10 h-10 rounded-full bg-[#C9A86C]/10 border border-[#C9A86C]/30 flex items-center justify-center text-[#C9A86C] shrink-0 mt-0.5">
-                  <Phone className="w-4 h-4" />
-                </div>
-                <div>
-                  <span className="text-[10px] uppercase tracking-widest text-zinc-400 font-mono block">
-                    BUSINESS OFFICE
+                    ARTIST REPRESENTATION
                   </span>
                   <span className="text-white text-sm font-medium">
-                    {artistProfile.management.phone}
+                    Dare (Digital Arts Rep) Management, Miami, FL
                   </span>
                 </div>
               </div>
@@ -146,7 +129,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <span className="text-[10px] uppercase tracking-widest text-zinc-400 font-mono block">
-                    LOCATIONS
+                    BASE LOCATIONS
                   </span>
                   <span className="text-zinc-300 text-xs font-light">
                     {artistProfile.management.location}

@@ -13,45 +13,8 @@ import {
   Compass,
 } from 'lucide-react';
 import PageHeader from '@/components/layout/PageHeader';
-import { tourEventsData } from '@/data/artistData';
+import { tourEventsData, pastEventsData } from '@/data/artistData';
 import { TourEvent } from '@/types/artist';
-
-const pastEventsData: TourEvent[] = [
-  {
-    id: 'past-1',
-    title: 'WOMEN WHO DARE FESTIVAL 2025',
-    tourName: 'Dare Management Showcase',
-    date: '2025-03-21T19:30:00Z',
-    displayDate: '21 MAR 2025',
-    time: '7:30 PM',
-    venue: 'Miami Beach Bandshell',
-    city: 'Miami',
-    country: 'United States',
-    status: 'PAST',
-    eventPhoto:
-      'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1000&q=85',
-    description:
-      'Headlining live performance at the Women Who Dare festival in Miami Beach.',
-    mapsUrl: 'https://maps.google.com/?q=Miami+Beach+Bandshell',
-  },
-  {
-    id: 'past-2',
-    title: 'SANTO DOMINGO ACOUSTIC SESSIONS',
-    tourName: 'Acoustic Sessions Live',
-    date: '2024-12-14T20:00:00Z',
-    displayDate: '14 DEC 2024',
-    time: '8:00 PM',
-    venue: 'Casa de Teatro',
-    city: 'Santo Domingo',
-    country: 'Dominican Republic',
-    status: 'PAST',
-    eventPhoto:
-      'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1000&q=85',
-    description:
-      'Intimate acoustic evening performing songs from "Without You" and previewing "Reliquia".',
-    mapsUrl: 'https://maps.google.com/?q=Casa+de+Teatro+Santo+Domingo',
-  },
-];
 
 export default function EventsPage() {
   const [activeTab, setActiveTab] = useState<'UPCOMING' | 'PAST'>('UPCOMING');
@@ -168,10 +131,10 @@ export default function EventsPage() {
           </div>
         )}
 
-        {/* Demo Disclaimer */}
-        <div className="mt-12 p-4 rounded-2xl bg-white/[0.02] border border-white/10 text-center text-xs text-zinc-500 font-mono">
+        {/* Official Event Notice */}
+        <div className="mt-12 p-4 rounded-2xl bg-white/[0.02] border border-white/10 text-center text-xs text-zinc-400 font-mono">
           <p>
-            NOTICE: All tour dates are demo representations. Online ticket sales are handled directly by official venue box offices. No transactions occur on this site.
+            OFFICIAL NOTICE: Live dates, showcases, and private listening sessions are managed in partnership with Dare Management. Click &ldquo;EVENT DETAILS&rdquo; on any date for official registration and RSVP links.
           </p>
         </div>
       </div>

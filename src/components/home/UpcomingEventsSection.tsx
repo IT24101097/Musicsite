@@ -24,7 +24,7 @@ export default function UpcomingEventsSection() {
     seconds: 45,
   });
 
-  const nextEvent = tourEventsData[0]; // Colombo, Sri Lanka
+  const nextEvent = tourEventsData[0];
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -68,7 +68,7 @@ export default function UpcomingEventsSection() {
           </Link>
         </div>
 
-        {/* Live Countdown to Next Event (Colombo, Sri Lanka) */}
+        {/* Live Countdown to Next Event */}
         <div className="mb-14 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-white/5 via-[#C9A86C]/10 to-white/5 border border-[#C9A86C]/30 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <span className="text-[10px] uppercase tracking-[0.25em] text-[#C9A86C] font-mono block">

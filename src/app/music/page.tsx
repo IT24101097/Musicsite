@@ -31,7 +31,7 @@ export default function MusicPage() {
       <PageHeader
         badge="Official Discography"
         title="THE MUSIC"
-        subtitle="Explore the complete catalogue of singles, EPs, and acoustic sessions by Cristina Casado."
+        subtitle="In the process of recording new songs, Cristina strives to create music that is both relatable and authentic. Explore the discography of singles, EPs, and studio projects."
       />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">

@@ -25,13 +25,13 @@ export const artistProfile: ArtistProfile = {
   ],
   // Authentic master photographs from cristinacasadomusic.com
   heroImage:
-    'https://static.wixstatic.com/media/4042cf_684468738d314f76a41d634e65eef63b~mv2.jpg',
+    '/assets/hero-piano.jpg',
   heroSecondaryImage:
-    'https://static.wixstatic.com/media/4042cf_d754ec295b414da18f5a30b4c5e47da9~mv2.jpg',
+    '/assets/studio-piano.jpg',
   profilePortrait:
-    'https://static.wixstatic.com/media/4042cf_8bdaa63df51f418fb8a10302db566093~mv2.jpg',
+    '/assets/portrait-editorial.jpg',
   studioPortrait:
-    'https://static.wixstatic.com/media/4042cf_9691e9088e4542128315a06536cef634~mv2.jpg',
+    '/assets/acoustic-shoot.jpg',
   quote:
     'I believe that my success is linked to the love and support of my fans. My commitment to quality and hard work is evident in every song that I write and performance that I\'m a part of. I\'m grateful for everyone who has been by my side, and I promise to continue making music that resonates with you. Thank you from the bottom of my heart for your ongoing support!',
   quoteAuthor: 'Cristina Casado',
@@ -155,9 +155,9 @@ export const albumsData: Album[] = [
     releaseDate: 'October 3, 2025',
     releaseYear: '2025',
     coverImage:
-      'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
+      '/assets/cover-oxymoron.jpg',
     bannerImage:
-      'https://static.wixstatic.com/media/4042cf_684468738d314f76a41d634e65eef63b~mv2.jpg',
+      '/assets/hero-piano.jpg',
     description:
       'A bold pop single from Cristina Casado exploring emotional contradictions and relationship dynamics. Produced in Miami with Grammy-nominated producer Dani Crazy Town and Dare Management.',
     spotifyUrl: 'https://open.spotify.com/album/35cZcDo6ybsC1b7a7QyXkh',
@@ -192,9 +192,9 @@ export const albumsData: Album[] = [
     releaseDate: 'July 17, 2025',
     releaseYear: '2025',
     coverImage:
-      'https://i.scdn.co/image/ab67616d0000b2737984e1dc0dad0d283a8368f4',
+      '/assets/cover-reliquia.jpg',
     bannerImage:
-      'https://static.wixstatic.com/media/4042cf_e13584cb3dce4e00a8b709363428fd21~mv2.png',
+      '/assets/poster-reliquia.png',
     description:
       'An intimate, timeless ballad celebrating sacred connection and emotional depth. Featuring bilingual lyricism and delicate acoustic instrumentation.',
     spotifyUrl: 'https://open.spotify.com/album/4gFidBRqhl9AvhUZkqW7P7',
@@ -229,9 +229,9 @@ export const albumsData: Album[] = [
     releaseDate: 'August 27, 2026',
     releaseYear: '2026',
     coverImage:
-      'https://i.scdn.co/image/ab67616d0000b2736e4f06be1df9de410a80a7a7',
+      '/assets/cover-me-perdiste.jpg',
     bannerImage:
-      'https://static.wixstatic.com/media/4042cf_8bdaa63df51f418fb8a10302db566093~mv2.jpg',
+      '/assets/portrait-editorial.jpg',
     description:
       'The latest release and official Spotify artist pick. An anthem of self-worth and independence navigating emotional growth with catchy Latin pop grooves.',
     spotifyUrl: 'https://open.spotify.com/album/0Vlzwi5cUuWOZI3HLrOrKN',
@@ -266,9 +266,9 @@ export const albumsData: Album[] = [
     releaseDate: '2026',
     releaseYear: '2026',
     coverImage:
-      'https://i.scdn.co/image/ab67616d0000b273f650deae2fb466c08306dcdd',
+      '/assets/cover-pausa.jpg',
     bannerImage:
-      'https://static.wixstatic.com/media/4042cf_d754ec295b414da18f5a30b4c5e47da9~mv2.jpg',
+      '/assets/studio-piano.jpg',
     description:
       'A serene acoustic-pop reflection on breathing space, self-care, and finding calm amidst the world’s noise.',
     spotifyUrl: 'https://open.spotify.com/album/0JvjiSXNvrOJbwtdi9vsw0',
@@ -303,9 +303,9 @@ export const albumsData: Album[] = [
     releaseDate: 'May 23, 2025',
     releaseYear: '2025',
     coverImage:
-      'https://i.scdn.co/image/ab67616d0000b273ee2d15f00c011b838cd90dd1',
+      '/assets/cover-lilac.jpg',
     bannerImage:
-      'https://static.wixstatic.com/media/4042cf_d1daa0ff09094682b38148bfb7e83dd2~mv2.jpeg',
+      '/assets/banner-lilac.jpg',
     description:
       'A tender exploration of youth, innocence, and delicate melody layered over grand piano and rich vocal textures.',
     spotifyUrl: 'https://open.spotify.com/album/2AXxklrBVPh5BnsKyDJ515',
@@ -340,9 +340,9 @@ export const albumsData: Album[] = [
     releaseDate: '2025',
     releaseYear: '2025',
     coverImage:
-      'https://i.scdn.co/image/ab67616d0000b2737b7c7353c5f8cb11c813d1f8',
+      '/assets/cover-dont-ask.jpg',
     bannerImage:
-      'https://static.wixstatic.com/media/4042cf_9691e9088e4542128315a06536cef634~mv2.jpg',
+      '/assets/acoustic-shoot.jpg',
     description:
       'An introspective single navigating boundaries, unspoken truths, and magnetic attraction with acoustic pop sensibilities.',
     spotifyUrl: 'https://open.spotify.com/album/6WBJBDOc61RpctXEh6WAaQ',
@@ -377,9 +377,9 @@ export const albumsData: Album[] = [
     releaseDate: 'April 30, 2021',
     releaseYear: '2021',
     coverImage:
-      'https://i.scdn.co/image/ab67616d0000b2731de391be9421ca14d46a9dc7',
+      '/assets/cover-without-you.jpg',
     bannerImage:
-      'https://static.wixstatic.com/media/4042cf_9691e9088e4542128315a06536cef634~mv2.jpg',
+      '/assets/acoustic-shoot.jpg',
     description:
       'Cristina Casado’s breakout debut single produced by renowned Dominican producer Álvaro Dinzey. A delicate, heart-rending piano pop ballad that first introduced her voice and songwriting to the public in 2021.',
     spotifyUrl: 'https://open.spotify.com/album/2BbaGlpvPRQIl78AfIfFjT',
@@ -415,7 +415,7 @@ export const latestRelease = {
   releaseYear: '2025',
   duration: '2:49',
   coverImage:
-    'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
+    '/assets/cover-oxymoron.jpg',
   description:
     'The compelling pop single from Cristina Casado, produced in collaboration with Dare Management and Grammy Nominee producer Dani Crazy Town. Exploring thought-provoking themes with delicate vocal delivery and contemporary soundscapes.',
   previewAudioUrl:
@@ -435,7 +435,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseDate: 'October 03, 2025',
     duration: '2:54',
     thumbnail:
-      'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
+      '/assets/cover-oxymoron.jpg',
     featured: true,
     description:
       'The official music video for "Oxymoron", exploring contradictions and emotional dissonance with delicate vocals and production by Danicrazytown.',
@@ -449,7 +449,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseDate: 'July 17, 2025',
     duration: '3:34',
     thumbnail:
-      'https://i.scdn.co/image/ab67616d0000b2737984e1dc0dad0d283a8368f4',
+      '/assets/cover-reliquia.jpg',
     featured: true,
     description:
       'The official music video for "Reliquia", capturing the timeless intimacy, bilingual lyricism, and acoustic warmth of Cristina Casado.',
@@ -463,7 +463,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseDate: 'May 23, 2025',
     duration: '3:19',
     thumbnail:
-      'https://i.scdn.co/image/ab67616d0000b273ee2d15f00c011b838cd90dd1',
+      '/assets/cover-lilac.jpg',
     featured: false,
     description:
       'Official music video for "Lilac", exploring nostalgic innocence, delicate grand piano chords, and melodic indie pop sensibilities.',
@@ -477,7 +477,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseDate: '2026',
     duration: '3:12',
     thumbnail:
-      'https://i.scdn.co/image/ab67616d0000b273f650deae2fb466c08306dcdd',
+      '/assets/cover-pausa.jpg',
     featured: false,
     description:
       'Official music video for "Pausa", an evocative coastal reflection on breathing space and emotional stillness.',
@@ -491,7 +491,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseDate: 'August 27, 2026',
     duration: '3:05',
     thumbnail:
-      'https://i.scdn.co/image/ab67616d0000b2736e4f06be1df9de410a80a7a7',
+      '/assets/cover-me-perdiste.jpg',
     featured: false,
     description:
       'Empowerment anthem transforming romantic separation into self-assurance and independence ("Tú perdiste porque me perdiste a mí").',
@@ -505,7 +505,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseDate: '2025',
     duration: '3:41',
     thumbnail:
-      'https://i.scdn.co/image/ab67616d0000b2737b7c7353c5f8cb11c813d1f8',
+      '/assets/cover-dont-ask.jpg',
     featured: false,
     description:
       'Intimate vocal narrative exploring unspoken boundaries and lingering feelings in modern romance.',
@@ -518,7 +518,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseYear: '2024',
     releaseDate: 'Live Performance',
     duration: '3:45',
-    thumbnail: 'https://i.ytimg.com/vi/3McME2tM1Pc/hqdefault.jpg',
+    thumbnail: '/assets/thumb-lover.jpg',
     featured: false,
     description:
       'Acoustic live cover of Taylor Swift’s "Lover" performed by Cristina Casado, demonstrating vocal range and heartfelt delivery.',
@@ -531,7 +531,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseYear: '2024',
     releaseDate: 'Live Performance',
     duration: '3:55',
-    thumbnail: 'https://i.ytimg.com/vi/iJjgTKNumXU/hqdefault.jpg',
+    thumbnail: '/assets/thumb-falling.jpg',
     featured: false,
     description:
       'Emotional piano and vocal interpretation of Harry Styles’ ballad "Falling", captured in an intimate session.',
@@ -545,7 +545,7 @@ export const musicVideosData: MusicVideo[] = [
     releaseDate: 'January 15, 2025',
     duration: '4:20',
     thumbnail:
-      'https://static.wixstatic.com/media/4042cf_375d55be0a5b416f85caeeb3d2c2cbe0~mv2.jpg',
+      '/assets/dare-miami.jpg',
     featured: false,
     description:
       'Behind the scenes in the studio tracking vocals, developing melodies, and crafting the new sound with Dare Management.',
@@ -565,7 +565,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'United States',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_389dfa091b8b48ce8788d9e461bf3157~mv2.jpg',
+      '/assets/jam-session.jpg',
     description:
       'Live jam session and intimate acoustic performance featuring Cristina Casado, presenting original songs and creative jams with Dare Management.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -584,7 +584,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'Worldwide',
     status: 'UPCOMING',
     eventPhoto:
-      'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
+      '/assets/cover-oxymoron.jpg',
     description:
       'Official release day for the highly awaited single "Oxymoron", produced by Grammy Nominee Dani Crazy Town and Dare Management.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -603,7 +603,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'United States / Dominican Republic',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_e13584cb3dce4e00a8b709363428fd21~mv2.png',
+      '/assets/poster-reliquia.png',
     description:
       'Official release celebration for "Reliquia", bringing live acoustic arrangements and contemporary Latin-Anglo pop fusion.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -622,7 +622,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'Worldwide',
     status: 'UPCOMING',
     eventPhoto:
-      'https://i.scdn.co/image/ab67616d0000b273ee2d15f00c011b838cd90dd1',
+      '/assets/cover-lilac.jpg',
     description:
       'Worldwide release of the atmospheric single "Lilac", exploring youth, innocence, and delicate melodies.',
     mapsUrl: 'https://maps.google.com/?q=Punta+Cana+Dominican+Republic',
@@ -641,7 +641,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'United States',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_47ac1cb15ada4e439e8e19e6cb173e38~mv2.png',
+      '/assets/women-who-dare.png',
     description:
       "Special Women's Month showcase celebrating female creative power with Dare Management, featuring Cristina Casado live.",
     mapsUrl: 'https://maps.google.com/?q=Miami+Beach+Florida',
@@ -660,7 +660,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'United States',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_9e6a339899f443258e6bf578060c86cb~mv2.jpeg',
+      '/assets/dare-showcase.jpg',
     description:
       'Exclusive live showcase in Miami announcing the new collaboration with Dare Management and previewing the upcoming EP.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -679,7 +679,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'United States',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_fb5d3545dd1a4410820d03fd4de30490~mv2.jpg',
+      '/assets/listening-session.jpg',
     description:
       'An intimate listening session for press, collaborators, and special guests to hear unreleased tracks ahead of public release.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -701,7 +701,7 @@ export const pastEventsData: TourEvent[] = [
     country: 'United States',
     status: 'PAST',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_47ac1cb15ada4e439e8e19e6cb173e38~mv2.png',
+      '/assets/women-who-dare.png',
     description:
       'Live showcase in Miami highlighting original songs and dynamic stage performances with Dare Management.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -720,7 +720,7 @@ export const pastEventsData: TourEvent[] = [
     country: 'Dominican Republic',
     status: 'PAST',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_961a8f713e574d059820848d0f9f7cc6~mv2.jpg',
+      '/assets/ismael-serrano.jpg',
     description:
       'Special opening act performance for celebrated Spanish singer-songwriter Ismael Serrano on his "Guitarra y Voz" acoustic concert tour.',
     mapsUrl: 'https://maps.google.com/?q=Teatro+Nacional+Santo+Domingo',
@@ -739,7 +739,7 @@ export const pastEventsData: TourEvent[] = [
     country: 'Dominican Republic',
     status: 'PAST',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_2b646667b7d24d189d6f89f293000493~mv2.jpg',
+      '/assets/sergio-vargas.jpg',
     description:
       'Guest artist performance with Latin Grammy legend Sergio Vargas celebrating Dominican Merengue, Bolero tradition, and vocal artistry.',
     mapsUrl: 'https://maps.google.com/?q=Santo+Domingo+Dominican+Republic',
@@ -758,7 +758,7 @@ export const pastEventsData: TourEvent[] = [
     country: 'Dominican Republic',
     status: 'PAST',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_8bdaa63df51f418fb8a10302db566093~mv2.jpg',
+      '/assets/portrait-editorial.jpg',
     description:
       'The formal unveiling of Cristina Casado’s debut single "Without You", produced by Álvaro Dinzey.',
     mapsUrl: 'https://maps.google.com/?q=Santo+Domingo+Dominican+Republic',
@@ -772,7 +772,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Grand Piano Composition',
     category: 'Studio',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_684468738d314f76a41d634e65eef63b~mv2.jpg',
+      '/assets/hero-piano.jpg',
     aspect: 'wide',
     caption:
       'Cristina Casado at the grand piano developing melodic motifs and vocal harmonies.',
@@ -785,7 +785,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Master Editorial Portrait',
     category: 'Photoshoots',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_8bdaa63df51f418fb8a10302db566093~mv2.jpg',
+      '/assets/portrait-editorial.jpg',
     aspect: 'tall',
     caption:
       'Official portrait featured on the official website about page and press releases.',
@@ -798,7 +798,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Studio Piano Session',
     category: 'Studio',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_d754ec295b414da18f5a30b4c5e47da9~mv2.jpg',
+      '/assets/studio-piano.jpg',
     aspect: 'wide',
     caption:
       'Refining piano chord structures and songwriting arrangements.',
@@ -811,7 +811,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Dare Management in Miami',
     category: 'Behind the Scenes',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_375d55be0a5b416f85caeeb3d2c2cbe0~mv2.jpg',
+      '/assets/dare-miami.jpg',
     aspect: 'tall',
     caption:
       'In Miami celebrating the official management collaboration with Dare Management.',
@@ -824,7 +824,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Official Editorial Photoshoot',
     category: 'Photoshoots',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_9691e9088e4542128315a06536cef634~mv2.jpg',
+      '/assets/acoustic-shoot.jpg',
     aspect: 'wide',
     caption:
       'Acoustic editorial photoshoot capturing the natural warmth of Cristina Casado’s sound.',
@@ -837,7 +837,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Acoustic Vocal Tracking',
     category: 'Studio',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_4de831d1ce0c497bab9d198b7147e0a3~mv2.jpg',
+      '/assets/acoustic-tracking.jpg',
     aspect: 'tall',
     caption:
       'Tracking acoustic guitar and lead vocals in the recording studio.',
@@ -850,7 +850,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Studio Vocal Session',
     category: 'Studio',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_173ebecc22cc4e9fb3b80ce068ea628f~mv2.jpeg',
+      '/assets/vocal-session.jpg',
     aspect: 'tall',
     caption:
       'Vocal tracking for the highly awaited single "Oxymoron".',
@@ -863,7 +863,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Women Who Dare Showcase',
     category: 'Live',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_47ac1cb15ada4e439e8e19e6cb173e38~mv2.png',
+      '/assets/women-who-dare.png',
     aspect: 'tall',
     caption:
       'Live showcase art for the Women Who Dare concert series in Miami.',
@@ -876,7 +876,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Private Listening Session',
     category: 'Behind the Scenes',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_fb5d3545dd1a4410820d03fd4de30490~mv2.jpg',
+      '/assets/listening-session.jpg',
     aspect: 'square',
     caption:
       'Private listening session with close collaborators and industry partners.',
@@ -889,7 +889,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Live Stage Vocal Performance',
     category: 'Live',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_08ac084e9c784ccfb60a2bddeee33cd7~mv2.jpg',
+      '/assets/live-stage.jpg',
     aspect: 'tall',
     caption:
       'Captivating the crowd on stage during an intimate acoustic showcase.',
@@ -902,7 +902,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Opening for Ismael Serrano',
     category: 'Live',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_961a8f713e574d059820848d0f9f7cc6~mv2.jpg',
+      '/assets/ismael-serrano.jpg',
     aspect: 'square',
     caption:
       'Special opening guest artist for Ismael Serrano’s "Guitarra y Voz" acoustic concert.',
@@ -915,7 +915,7 @@ export const galleryPhotosData: GalleryPhoto[] = [
     title: 'Noche de Merengue y Bolero Gala',
     category: 'Live',
     imageUrl:
-      'https://static.wixstatic.com/media/4042cf_2b646667b7d24d189d6f89f293000493~mv2.jpg',
+      '/assets/sergio-vargas.jpg',
     aspect: 'square',
     caption:
       'Collaborative vocal performance with Latin Grammy legend Sergio Vargas.',

@@ -25,6 +25,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://cristinacasadomusic.com'),
   title: `${artistProfile.name} | Official Website • Reliquia & Oxymoron`,
   description: `${artistProfile.name} - ${artistProfile.tagline}. Official music, videos, upcoming concerts, and biography.`,
   keywords: [

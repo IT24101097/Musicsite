@@ -148,149 +148,255 @@ export const originalSongsCatalog: string[] = [
 
 export const albumsData: Album[] = [
   {
-    id: 'album-1',
-    slug: 'reliquia-oxymoron',
-    title: 'RELIQUIA & OXYMORON',
-    type: 'EP',
-    releaseDate: 'July 17, 2025',
+    id: 'single-1',
+    slug: 'oxymoron-single',
+    title: 'OXYMORON',
+    type: 'SINGLE',
+    releaseDate: 'October 3, 2025',
     releaseYear: '2025',
     coverImage:
-      'https://static.wixstatic.com/media/4042cf_5046a30624ff464296d4157281147a3e~mv2.jpeg',
+      'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
     bannerImage:
       'https://static.wixstatic.com/media/4042cf_684468738d314f76a41d634e65eef63b~mv2.jpg',
     description:
-      'Cristina Casado’s landmark EP era created in collaboration with Dare Management in Miami and Grammy-nominated producer Dani Crazy Town. Featuring the singles "Oxymoron", "Reliquia", and "Lilac".',
-    spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
+      'A bold pop single from Cristina Casado exploring emotional contradictions and relationship dynamics. Produced in Miami with Grammy-nominated producer Dani Crazy Town and Dare Management.',
+    spotifyUrl: 'https://open.spotify.com/album/35cZcDo6ybsC1b7a7QyXkh',
     appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
-    youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
+    youtubeUrl: 'https://www.youtube.com/watch?v=U9R1tncQqCc',
     featured: true,
     tracks: [
       {
         id: 't-101',
-        albumId: 'album-1',
+        albumId: 'single-1',
         trackNumber: 1,
         title: 'Oxymoron',
-        duration: '3:42',
-        durationSeconds: 222,
+        duration: '2:49',
+        durationSeconds: 169,
         previewAudioUrl:
           'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
-        spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
+        spotifyUrl: 'https://open.spotify.com/album/35cZcDo6ybsC1b7a7QyXkh',
         appleMusicUrl:
           'https://music.apple.com/artist/cristina-casado/1564757304',
-        youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
+        youtubeUrl: 'https://www.youtube.com/watch?v=U9R1tncQqCc',
         producer: 'Dani Crazy Town (Grammy Nominee) & Dare Management',
         lyricsExcerpt:
           'You are a walking oxymoron, whispering silence in the storm. You say you love me while pulling away...',
       },
+    ],
+  },
+  {
+    id: 'single-2',
+    slug: 'reliquia-single',
+    title: 'RELIQUIA',
+    type: 'SINGLE',
+    releaseDate: 'July 17, 2025',
+    releaseYear: '2025',
+    coverImage:
+      'https://i.scdn.co/image/ab67616d0000b2737984e1dc0dad0d283a8368f4',
+    bannerImage:
+      'https://static.wixstatic.com/media/4042cf_e13584cb3dce4e00a8b709363428fd21~mv2.png',
+    description:
+      'An intimate, timeless ballad celebrating sacred connection and emotional depth. Featuring bilingual lyricism and delicate acoustic instrumentation.',
+    spotifyUrl: 'https://open.spotify.com/album/4gFidBRqhl9AvhUZkqW7P7',
+    appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Uz_Tc-yCCSk',
+    featured: true,
+    tracks: [
       {
         id: 't-102',
-        albumId: 'album-1',
-        trackNumber: 2,
+        albumId: 'single-2',
+        trackNumber: 1,
         title: 'Reliquia',
         duration: '3:34',
         durationSeconds: 214,
         previewAudioUrl:
           'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-        spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
+        spotifyUrl: 'https://open.spotify.com/album/4gFidBRqhl9AvhUZkqW7P7',
         appleMusicUrl:
           'https://music.apple.com/artist/cristina-casado/1564757304',
-        youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
+        youtubeUrl: 'https://www.youtube.com/watch?v=Uz_Tc-yCCSk',
         producer: 'Dani Crazy Town & Cristina Casado',
         lyricsExcerpt:
           'Though our road is no longer rosy, what we have is a sacred relic. En cada latido guardo el secreto que nos une...',
       },
+    ],
+  },
+  {
+    id: 'single-3',
+    slug: 'me-perdiste-single',
+    title: 'ME PERDISTE',
+    type: 'SINGLE',
+    releaseDate: 'August 27, 2026',
+    releaseYear: '2026',
+    coverImage:
+      'https://i.scdn.co/image/ab67616d0000b2736e4f06be1df9de410a80a7a7',
+    bannerImage:
+      'https://static.wixstatic.com/media/4042cf_8bdaa63df51f418fb8a10302db566093~mv2.jpg',
+    description:
+      'The latest release and official Spotify artist pick. An anthem of self-worth and independence navigating emotional growth with catchy Latin pop grooves.',
+    spotifyUrl: 'https://open.spotify.com/album/0Vlzwi5cUuWOZI3HLrOrKN',
+    appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
+    youtubeUrl: 'https://www.youtube.com/watch?v=JdyD-vz9wE4',
+    featured: true,
+    tracks: [
       {
         id: 't-103',
-        albumId: 'album-1',
-        trackNumber: 3,
-        title: 'Lilac',
-        duration: '3:18',
-        durationSeconds: 198,
+        albumId: 'single-3',
+        trackNumber: 1,
+        title: 'Me Perdiste',
+        duration: '3:05',
+        durationSeconds: 185,
         previewAudioUrl:
           'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
-        spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
+        spotifyUrl: 'https://open.spotify.com/album/0Vlzwi5cUuWOZI3HLrOrKN',
         appleMusicUrl:
           'https://music.apple.com/artist/cristina-casado/1564757304',
-        youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
+        youtubeUrl: 'https://www.youtube.com/watch?v=JdyD-vz9wE4',
         producer: 'Cristina Casado & Dare Management',
         lyricsExcerpt:
-          'Under the lilac sky, innocent and young. A sweet first chapter in a song left unsung...',
-      },
-      {
-        id: 't-104',
-        albumId: 'album-1',
-        trackNumber: 4,
-        title: 'Writing On A Wall',
-        duration: '3:26',
-        durationSeconds: 206,
-        previewAudioUrl:
-          'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
-        spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
-        appleMusicUrl:
-          'https://music.apple.com/artist/cristina-casado/1564757304',
-        youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
-        producer: 'Dare Management Team',
-      },
-      {
-        id: 't-105',
-        albumId: 'album-1',
-        trackNumber: 5,
-        title: 'Fool For You',
-        duration: '3:50',
-        durationSeconds: 230,
-        previewAudioUrl:
-          'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
-        spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
-        appleMusicUrl:
-          'https://music.apple.com/artist/cristina-casado/1564757304',
-        youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
-        producer: 'Cristina Casado',
-      },
-      {
-        id: 't-106',
-        albumId: 'album-1',
-        trackNumber: 6,
-        title: "Don't Ask Don't Tell",
-        duration: '3:15',
-        durationSeconds: 195,
-        previewAudioUrl:
-          'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3',
-        spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
-        appleMusicUrl:
-          'https://music.apple.com/artist/cristina-casado/1564757304',
-        youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
-        producer: 'Dare Management Team',
+          'Tú perdiste porque me perdiste a mí. No voy a mirar atrás cuando el futuro brilla tan claro...',
       },
     ],
   },
   {
-    id: 'album-2',
+    id: 'single-4',
+    slug: 'pausa-single',
+    title: 'PAUSA',
+    type: 'SINGLE',
+    releaseDate: '2026',
+    releaseYear: '2026',
+    coverImage:
+      'https://i.scdn.co/image/ab67616d0000b273f650deae2fb466c08306dcdd',
+    bannerImage:
+      'https://static.wixstatic.com/media/4042cf_d754ec295b414da18f5a30b4c5e47da9~mv2.jpg',
+    description:
+      'A serene acoustic-pop reflection on breathing space, self-care, and finding calm amidst the world’s noise.',
+    spotifyUrl: 'https://open.spotify.com/album/0JvjiSXNvrOJbwtdi9vsw0',
+    appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
+    youtubeUrl: 'https://www.youtube.com/watch?v=mid_2H450FY',
+    featured: true,
+    tracks: [
+      {
+        id: 't-104',
+        albumId: 'single-4',
+        trackNumber: 1,
+        title: 'Pausa',
+        duration: '3:12',
+        durationSeconds: 192,
+        previewAudioUrl:
+          'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+        spotifyUrl: 'https://open.spotify.com/album/0JvjiSXNvrOJbwtdi9vsw0',
+        appleMusicUrl:
+          'https://music.apple.com/artist/cristina-casado/1564757304',
+        youtubeUrl: 'https://www.youtube.com/watch?v=mid_2H450FY',
+        producer: 'Cristina Casado & Production Team',
+        lyricsExcerpt:
+          'Hacer una pausa para respirar, dejar que las olas se lleven lo que no nos deja avanzar...',
+      },
+    ],
+  },
+  {
+    id: 'single-5',
+    slug: 'lilac-single',
+    title: 'LILAC',
+    type: 'SINGLE',
+    releaseDate: 'May 23, 2025',
+    releaseYear: '2025',
+    coverImage:
+      'https://i.scdn.co/image/ab67616d0000b273ee2d15f00c011b838cd90dd1',
+    bannerImage:
+      'https://static.wixstatic.com/media/4042cf_d1daa0ff09094682b38148bfb7e83dd2~mv2.jpeg',
+    description:
+      'A tender exploration of youth, innocence, and delicate melody layered over grand piano and rich vocal textures.',
+    spotifyUrl: 'https://open.spotify.com/album/2AXxklrBVPh5BnsKyDJ515',
+    appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
+    youtubeUrl: 'https://www.youtube.com/watch?v=EsveAXhwtXY',
+    featured: false,
+    tracks: [
+      {
+        id: 't-105',
+        albumId: 'single-5',
+        trackNumber: 1,
+        title: 'Lilac',
+        duration: '3:19',
+        durationSeconds: 199,
+        previewAudioUrl:
+          'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
+        spotifyUrl: 'https://open.spotify.com/album/2AXxklrBVPh5BnsKyDJ515',
+        appleMusicUrl:
+          'https://music.apple.com/artist/cristina-casado/1564757304',
+        youtubeUrl: 'https://www.youtube.com/watch?v=EsveAXhwtXY',
+        producer: 'Cristina Casado & Dare Management',
+        lyricsExcerpt:
+          'Under the lilac sky, innocent and young. A sweet first chapter in a song left unsung...',
+      },
+    ],
+  },
+  {
+    id: 'single-6',
+    slug: 'dont-ask-dont-tell-single',
+    title: "DON'T ASK DON'T TELL",
+    type: 'SINGLE',
+    releaseDate: '2025',
+    releaseYear: '2025',
+    coverImage:
+      'https://i.scdn.co/image/ab67616d0000b2737b7c7353c5f8cb11c813d1f8',
+    bannerImage:
+      'https://static.wixstatic.com/media/4042cf_9691e9088e4542128315a06536cef634~mv2.jpg',
+    description:
+      'An introspective single navigating boundaries, unspoken truths, and magnetic attraction with acoustic pop sensibilities.',
+    spotifyUrl: 'https://open.spotify.com/album/6WBJBDOc61RpctXEh6WAaQ',
+    appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Ykzg9-2kCO8',
+    featured: false,
+    tracks: [
+      {
+        id: 't-106',
+        albumId: 'single-6',
+        trackNumber: 1,
+        title: "Don't Ask Don't Tell",
+        duration: '3:41',
+        durationSeconds: 221,
+        previewAudioUrl:
+          'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3',
+        spotifyUrl: 'https://open.spotify.com/album/6WBJBDOc61RpctXEh6WAaQ',
+        appleMusicUrl:
+          'https://music.apple.com/artist/cristina-casado/1564757304',
+        youtubeUrl: 'https://www.youtube.com/watch?v=Ykzg9-2kCO8',
+        producer: 'Dare Management Team',
+        lyricsExcerpt:
+          'Some things are better left unspoken in the quiet of the night...',
+      },
+    ],
+  },
+  {
+    id: 'single-7',
     slug: 'without-you-single',
     title: 'WITHOUT YOU (THE DEBUT)',
     type: 'SINGLE',
     releaseDate: 'April 30, 2021',
     releaseYear: '2021',
     coverImage:
-      'https://i.scdn.co/image/ab6761610000e5eb4ebf92e28dfd1ebf54ec36be',
+      'https://i.scdn.co/image/ab67616d0000b2731de391be9421ca14d46a9dc7',
     bannerImage:
       'https://static.wixstatic.com/media/4042cf_9691e9088e4542128315a06536cef634~mv2.jpg',
     description:
-      'Cristina Casado’s breakout debut single produced by Álvaro Dinzey. A delicate, heart-rending piano pop ballad that first introduced her voice and songwriting to the public in 2021.',
-    spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
+      'Cristina Casado’s breakout debut single produced by renowned Dominican producer Álvaro Dinzey. A delicate, heart-rending piano pop ballad that first introduced her voice and songwriting to the public in 2021.',
+    spotifyUrl: 'https://open.spotify.com/album/2BbaGlpvPRQIl78AfIfFjT',
     appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
     youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
     featured: true,
     tracks: [
       {
         id: 't-201',
-        albumId: 'album-2',
+        albumId: 'single-7',
         trackNumber: 1,
         title: 'Without You',
         duration: '3:52',
         durationSeconds: 232,
         previewAudioUrl:
           'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
-        spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
+        spotifyUrl: 'https://open.spotify.com/album/2BbaGlpvPRQIl78AfIfFjT',
         appleMusicUrl:
           'https://music.apple.com/artist/cristina-casado/1564757304',
         youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
@@ -304,100 +410,140 @@ export const albumsData: Album[] = [
 
 export const latestRelease = {
   songTitle: 'Oxymoron',
-  albumTitle: 'Oxymoron / Dare Management Sessions',
+  albumTitle: 'Oxymoron - Single',
   releaseDate: 'October 3, 2025',
   releaseYear: '2025',
-  duration: '3:42',
+  duration: '2:49',
   coverImage:
-    'https://static.wixstatic.com/media/4042cf_e13584cb3dce4e00a8b709363428fd21~mv2.png',
+    'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
   description:
     'The compelling pop single from Cristina Casado, produced in collaboration with Dare Management and Grammy Nominee producer Dani Crazy Town. Exploring thought-provoking themes with delicate vocal delivery and contemporary soundscapes.',
   previewAudioUrl:
     'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
-  spotifyUrl: 'https://open.spotify.com/artist/7IsJkcT7O5Abliw6W27UL5',
+  spotifyUrl: 'https://open.spotify.com/album/35cZcDo6ybsC1b7a7QyXkh',
   appleMusicUrl: 'https://music.apple.com/artist/cristina-casado/1564757304',
-  youtubeUrl: 'https://www.youtube.com/@cristinacasadomusic',
+  youtubeUrl: 'https://www.youtube.com/watch?v=U9R1tncQqCc',
 };
 
 export const musicVideosData: MusicVideo[] = [
   {
     id: 'vid-1',
-    title: 'Oxymoron (Official Visualizer)',
-    youtubeId: 'kY3j9s56o-o',
+    title: 'Oxymoron (Official Music Video)',
+    youtubeId: 'U9R1tncQqCc',
     category: 'OFFICIAL MUSIC VIDEOS',
     releaseYear: '2025',
     releaseDate: 'October 03, 2025',
-    duration: '3:42',
+    duration: '2:54',
     thumbnail:
-      'https://static.wixstatic.com/media/4042cf_e13584cb3dce4e00a8b709363428fd21~mv2.png',
+      'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
     featured: true,
     description:
-      'Visual aesthetic for "Oxymoron", exploring thoughtful lyrical contrasts and produced with Grammy Nominee Dani Crazy Town.',
+      'The official music video for "Oxymoron", exploring contradictions and emotional dissonance with delicate vocals and production by Danicrazytown.',
   },
   {
     id: 'vid-2',
     title: 'Reliquia (Official Music Video)',
-    youtubeId: 'kY3j9s56o-o',
+    youtubeId: 'Uz_Tc-yCCSk',
     category: 'OFFICIAL MUSIC VIDEOS',
     releaseYear: '2025',
     releaseDate: 'July 17, 2025',
     duration: '3:34',
     thumbnail:
-      'https://static.wixstatic.com/media/4042cf_5046a30624ff464296d4157281147a3e~mv2.jpeg',
+      'https://i.scdn.co/image/ab67616d0000b2737984e1dc0dad0d283a8368f4',
     featured: true,
     description:
-      'The official music video for "Reliquia", capturing the timeless intimacy and lyricism of Cristina Casado’s signature pop ballad.',
+      'The official music video for "Reliquia", capturing the timeless intimacy, bilingual lyricism, and acoustic warmth of Cristina Casado.',
   },
   {
     id: 'vid-3',
-    title: 'Lilac (Piano Live Session)',
-    youtubeId: 'F0kQv2WnQ-0',
-    category: 'LIVE PERFORMANCES',
+    title: 'Lilac (Official Music Video)',
+    youtubeId: 'EsveAXhwtXY',
+    category: 'OFFICIAL MUSIC VIDEOS',
     releaseYear: '2025',
     releaseDate: 'May 23, 2025',
-    duration: '3:20',
+    duration: '3:19',
     thumbnail:
-      'https://static.wixstatic.com/media/4042cf_d1daa0ff09094682b38148bfb7e83dd2~mv2.jpeg',
+      'https://i.scdn.co/image/ab67616d0000b273ee2d15f00c011b838cd90dd1',
     featured: false,
     description:
-      'Stripped-down live grand piano and vocal rendition of "Lilac" recorded live in studio.',
+      'Official music video for "Lilac", exploring nostalgic innocence, delicate grand piano chords, and melodic indie pop sensibilities.',
   },
   {
     id: 'vid-4',
-    title: 'Live at Women Who Dare Showcase (Miami)',
-    youtubeId: 'F0kQv2WnQ-0',
-    category: 'LIVE PERFORMANCES',
-    releaseYear: '2025',
-    releaseDate: 'March 21, 2025',
-    duration: '4:48',
+    title: 'Pausa (Official Music Video)',
+    youtubeId: 'mid_2H450FY',
+    category: 'OFFICIAL MUSIC VIDEOS',
+    releaseYear: '2026',
+    releaseDate: '2026',
+    duration: '3:12',
     thumbnail:
-      'https://static.wixstatic.com/media/4042cf_47ac1cb15ada4e439e8e19e6cb173e38~mv2.png',
+      'https://i.scdn.co/image/ab67616d0000b273f650deae2fb466c08306dcdd',
     featured: false,
     description:
-      'Highlights from Cristina Casado’s live set at the Women Who Dare showcase with Dare Management in Miami.',
+      'Official music video for "Pausa", an evocative coastal reflection on breathing space and emotional stillness.',
   },
   {
     id: 'vid-5',
-    title: 'Creative Monday Jam Session with Cristina Casado',
-    youtubeId: 'kY3j9s56o-o',
-    category: 'LIVE PERFORMANCES',
-    releaseYear: '2025',
-    releaseDate: 'November 17, 2025',
-    duration: '5:15',
+    title: 'Me Perdiste (Official Video)',
+    youtubeId: 'JdyD-vz9wE4',
+    category: 'OFFICIAL MUSIC VIDEOS',
+    releaseYear: '2026',
+    releaseDate: 'August 27, 2026',
+    duration: '3:05',
     thumbnail:
-      'https://static.wixstatic.com/media/4042cf_389dfa091b8b48ce8788d9e461bf3157~mv2.jpg',
+      'https://i.scdn.co/image/ab67616d0000b2736e4f06be1df9de410a80a7a7',
     featured: false,
     description:
-      'Live jam session and intimate acoustic performance featuring Cristina Casado in Miami.',
+      'Empowerment anthem transforming romantic separation into self-assurance and independence ("Tú perdiste porque me perdiste a mí").',
   },
   {
     id: 'vid-6',
+    title: "Don't Ask Don't Tell (Official Music Video)",
+    youtubeId: 'Ykzg9-2kCO8',
+    category: 'OFFICIAL MUSIC VIDEOS',
+    releaseYear: '2025',
+    releaseDate: '2025',
+    duration: '3:41',
+    thumbnail:
+      'https://i.scdn.co/image/ab67616d0000b2737b7c7353c5f8cb11c813d1f8',
+    featured: false,
+    description:
+      'Intimate vocal narrative exploring unspoken boundaries and lingering feelings in modern romance.',
+  },
+  {
+    id: 'vid-7',
+    title: 'Lover by Taylor Swift (Live Acoustic Cover)',
+    youtubeId: '3McME2tM1Pc',
+    category: 'LIVE PERFORMANCES',
+    releaseYear: '2024',
+    releaseDate: 'Live Performance',
+    duration: '3:45',
+    thumbnail: 'https://i.ytimg.com/vi/3McME2tM1Pc/hqdefault.jpg',
+    featured: false,
+    description:
+      'Acoustic live cover of Taylor Swift’s "Lover" performed by Cristina Casado, demonstrating vocal range and heartfelt delivery.',
+  },
+  {
+    id: 'vid-8',
+    title: 'Falling by Harry Styles (Acoustic Cover)',
+    youtubeId: 'iJjgTKNumXU',
+    category: 'LIVE PERFORMANCES',
+    releaseYear: '2024',
+    releaseDate: 'Live Performance',
+    duration: '3:55',
+    thumbnail: 'https://i.ytimg.com/vi/iJjgTKNumXU/hqdefault.jpg',
+    featured: false,
+    description:
+      'Emotional piano and vocal interpretation of Harry Styles’ ballad "Falling", captured in an intimate session.',
+  },
+  {
+    id: 'vid-9',
     title: 'In The Studio: Collaboration with Dani Crazy Town',
-    youtubeId: 'kY3j9s56o-o',
+    youtubeId: 'U9R1tncQqCc',
     category: 'BEHIND THE SCENES',
     releaseYear: '2025',
     releaseDate: 'January 15, 2025',
-    duration: '12:30',
+    duration: '4:20',
     thumbnail:
       'https://static.wixstatic.com/media/4042cf_375d55be0a5b416f85caeeb3d2c2cbe0~mv2.jpg',
     featured: false,
@@ -438,7 +584,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'Worldwide',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_e13584cb3dce4e00a8b709363428fd21~mv2.png',
+      'https://i.scdn.co/image/ab67616d0000b273190bb9e435bdcf155f8ca9ea',
     description:
       'Official release day for the highly awaited single "Oxymoron", produced by Grammy Nominee Dani Crazy Town and Dare Management.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -457,7 +603,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'United States / Dominican Republic',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_5046a30624ff464296d4157281147a3e~mv2.jpeg',
+      'https://static.wixstatic.com/media/4042cf_e13584cb3dce4e00a8b709363428fd21~mv2.png',
     description:
       'Official release celebration for "Reliquia", bringing live acoustic arrangements and contemporary Latin-Anglo pop fusion.',
     mapsUrl: 'https://maps.google.com/?q=Miami+Florida',
@@ -476,7 +622,7 @@ export const tourEventsData: TourEvent[] = [
     country: 'Worldwide',
     status: 'UPCOMING',
     eventPhoto:
-      'https://static.wixstatic.com/media/4042cf_d1daa0ff09094682b38148bfb7e83dd2~mv2.jpeg',
+      'https://i.scdn.co/image/ab67616d0000b273ee2d15f00c011b838cd90dd1',
     description:
       'Worldwide release of the atmospheric single "Lilac", exploring youth, innocence, and delicate melodies.',
     mapsUrl: 'https://maps.google.com/?q=Punta+Cana+Dominican+Republic',

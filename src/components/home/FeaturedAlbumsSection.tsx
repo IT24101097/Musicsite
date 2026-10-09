@@ -35,8 +35,8 @@ export default function FeaturedAlbumsSection() {
         </div>
 
         {/* Albums Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
-          {albumsData.map((album, idx) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+          {albumsData.slice(0, 6).map((album, idx) => (
             <motion.div
               key={album.id}
               initial={{ opacity: 0, y: 30 }}

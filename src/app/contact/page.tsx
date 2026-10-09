@@ -175,7 +175,7 @@ export default function ContactPage() {
                         <input
                           type="text"
                           {...register('fullName')}
-                          placeholder="e.g. Marcus Vance"
+                          placeholder="e.g. Sofia Rodriguez"
                           className="w-full px-4 py-3.5 rounded-xl bg-black/60 border border-white/15 text-white placeholder-zinc-600 text-xs focus:outline-none focus:border-[#C9A86C] transition-colors"
                         />
                         {errors.fullName && (
@@ -193,7 +193,7 @@ export default function ContactPage() {
                         <input
                           type="email"
                           {...register('email')}
-                          placeholder="marcus@agency.com"
+                          placeholder="sofia@agency.com"
                           className="w-full px-4 py-3.5 rounded-xl bg-black/60 border border-white/15 text-white placeholder-zinc-600 text-xs focus:outline-none focus:border-[#C9A86C] transition-colors"
                         />
                         {errors.email && (

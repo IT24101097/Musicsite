@@ -13,7 +13,6 @@ const categories: VideoCategory[] = [
   'ALL',
   'OFFICIAL MUSIC VIDEOS',
   'LIVE PERFORMANCES',
-  'ACOUSTIC',
   'BEHIND THE SCENES',
 ];
 
@@ -92,7 +91,8 @@ export default function VideosPage() {
                   </h3>
                 </div>
                 <span className="text-xs font-mono text-zinc-300 bg-black/60 px-4 py-2 rounded-full border border-white/10 shrink-0">
-                  {featuredVideo.duration} &bull; {featuredVideo.viewsCount}
+                  {featuredVideo.duration}
+                  {featuredVideo.viewsCount && ` • ${featuredVideo.viewsCount}`}
                 </span>
               </div>
             </div>

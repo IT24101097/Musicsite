@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'motion/react';
 import {
@@ -165,11 +166,11 @@ export default function UpcomingEventsSection() {
           ))}
         </div>
 
-        {/* Demo Data Disclaimer note */}
+        {/* Official Information Note */}
         <p className="text-[11px] text-zinc-400 font-mono mt-6 flex items-center space-x-2">
-          <Info className="w-3.5 h-3.5" />
+          <Info className="w-3.5 h-3.5 text-[#C9A86C]" />
           <span>
-            Tour dates and venues are sample demo content. Official ticket booking is handled via authorized venue box offices.
+            Official Notice: Showcases, listening sessions, and live dates are presented in collaboration with Dare Management. Click &ldquo;VIEW DETAILS&rdquo; on any date for official registration and RSVP information.
           </span>
         </p>
       </div>
@@ -189,20 +190,32 @@ export default function UpcomingEventsSection() {
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.95, opacity: 0, y: 20 }}
               onClick={(e) => e.stopPropagation()}
-              className="relative w-full max-w-lg bg-[#141414] border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl"
+              className="relative w-full max-w-lg bg-[#141414] border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl max-h-[90vh] overflow-y-auto"
             >
               <button
                 onClick={() => setSelectedEvent(null)}
-                className="absolute top-6 right-6 p-1.5 rounded-full text-zinc-400 hover:text-white hover:bg-white/10"
+                className="absolute top-6 right-6 p-1.5 rounded-full text-zinc-400 hover:text-white hover:bg-white/10 z-10"
                 aria-label="Close modal"
               >
                 <X className="w-5 h-5" />
               </button>
 
+              {selectedEvent.eventPhoto && (
+                <div className="relative w-full h-52 sm:h-60 rounded-2xl overflow-hidden mb-5 border border-white/10">
+                  <Image
+                    src={selectedEvent.eventPhoto}
+                    alt={selectedEvent.title}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                </div>
+              )}
+
               <span className="text-[10px] uppercase tracking-[0.25em] text-[#C9A86C] font-mono">
                 {selectedEvent.tourName}
               </span>
-              <h3 className="font-serif text-3xl font-light text-white mt-1 mb-2">
+              <h3 className="font-serif text-2xl sm:text-3xl font-light text-white mt-1 mb-2">
                 {selectedEvent.title}
               </h3>
 

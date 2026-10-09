@@ -2,23 +2,18 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'motion/react';
 import {
-  Trophy,
   Sparkles,
   Milestone,
   Quote,
   Music2,
-  BookOpen,
-  ArrowRight,
   ExternalLink,
 } from 'lucide-react';
 import PageHeader from '@/components/layout/PageHeader';
 import {
   artistProfile,
   careerMilestones,
-  awardsData,
   pressCritiquesData,
   notableCollaborators,
   originalSongsCatalog,

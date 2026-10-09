@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "res.cloudinary.com" },
       { protocol: "https", hostname: "i.scdn.co" },
       { protocol: "https", hostname: "open.spotifycdn.com" },
+      { protocol: "https", hostname: "static.wixstatic.com" },
     ],
   },
 };

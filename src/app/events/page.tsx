@@ -77,8 +77,20 @@ export default function EventsPage() {
                 transition={{ delay: idx * 0.08 }}
                 className="group p-6 md:p-8 rounded-3xl bg-[#121212]/70 border border-white/10 hover:border-[#C9A86C]/40 transition-all duration-300 flex flex-col lg:flex-row lg:items-center justify-between gap-6"
               >
+                {/* Event Poster Thumbnail */}
+                {event.eventPhoto && (
+                  <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden shrink-0 border border-white/10 group-hover:border-[#C9A86C]/40 transition-colors">
+                    <Image
+                      src={event.eventPhoto}
+                      alt={event.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                )}
+
                 {/* Date Block */}
-                <div className="lg:w-48 shrink-0 flex items-center lg:block space-x-4 lg:space-x-0">
+                <div className="lg:w-44 shrink-0 flex items-center lg:block space-x-4 lg:space-x-0">
                   <div className="text-2xl sm:text-3xl font-serif font-light text-white group-hover:text-[#DFC28D] transition-colors">
                     {event.displayDate}
                   </div>
@@ -154,20 +166,32 @@ export default function EventsPage() {
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.95, opacity: 0, y: 20 }}
               onClick={(e) => e.stopPropagation()}
-              className="relative w-full max-w-lg bg-[#141414] border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl"
+              className="relative w-full max-w-lg bg-[#141414] border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl max-h-[90vh] overflow-y-auto"
             >
               <button
                 onClick={() => setSelectedEvent(null)}
-                className="absolute top-6 right-6 p-1.5 rounded-full text-zinc-400 hover:text-white hover:bg-white/10"
+                className="absolute top-6 right-6 p-1.5 rounded-full text-zinc-400 hover:text-white hover:bg-white/10 z-10"
                 aria-label="Close modal"
               >
                 <X className="w-5 h-5" />
               </button>
 
+              {selectedEvent.eventPhoto && (
+                <div className="relative w-full h-52 sm:h-60 rounded-2xl overflow-hidden mb-5 border border-white/10">
+                  <Image
+                    src={selectedEvent.eventPhoto}
+                    alt={selectedEvent.title}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                </div>
+              )}
+
               <span className="text-[10px] uppercase tracking-[0.25em] text-[#C9A86C] font-mono">
                 {selectedEvent.tourName}
               </span>
-              <h3 className="font-serif text-3xl font-light text-white mt-1 mb-3">
+              <h3 className="font-serif text-2xl sm:text-3xl font-light text-white mt-1 mb-3">
                 {selectedEvent.title}
               </h3>
 

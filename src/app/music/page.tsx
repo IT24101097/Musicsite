@@ -37,7 +37,7 @@ export default function MusicPage() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12">
         {/* Filter Pills */}
         <div className="flex flex-wrap items-center justify-center gap-3 mb-16">
-          {(['ALL', 'EP', 'ALBUM', 'SINGLE'] as const).map((item) => (
+          {(['ALL', 'EP', 'SINGLE'] as const).map((item) => (
             <button
               key={item}
               onClick={() => setFilter(item as 'ALL' | MediaType)}
